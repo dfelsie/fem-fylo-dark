@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  position: relative;
+  background-color: yellow;
+  overflow-x: hidden;
+}
