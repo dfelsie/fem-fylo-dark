@@ -19,7 +19,7 @@ export default function IntroHero({}: Props) {
       <button
         className="mt-8 bg-gradient-to-r from-teal-300
       font-extrabold
-      to-blue-400 py-4 text-sm w-1/3 mx-auto rounded-full"
+      to-blue-400 py-4 text-md w-1/3 mx-auto rounded-full"
       >
         Get started
       </button>
