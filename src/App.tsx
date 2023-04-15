@@ -2,6 +2,8 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import IntroHero from "./components/IntroHero";
 import FeatureGrid from "./components/FeatureGrid";
+import ProductiveHero from "./components/ProductiveHero";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +21,10 @@ function App() {
       <IntroHero />
       <div className="h-32" />
       <FeatureGrid />
+      <div className="h-24" />
+      <ProductiveHero />
+      <div className="h-24" />
+      <Testimonials />
     </div>
   );
 }
