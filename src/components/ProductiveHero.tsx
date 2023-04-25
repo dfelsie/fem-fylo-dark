@@ -4,8 +4,9 @@ type Props = {};
 
 export default function ProductiveHero({}: Props) {
   return (
-    <div className="flex flex-col md:flex-row items-center w-3/4 mx-auto gap-8">
+    <section className="flex flex-col md:flex-row items-center w-3/4 mx-auto gap-8">
       <img
+        alt="stay productive"
         className="h-1/2 w-full"
         src="/assets/images/illustration-stay-productive.png"
       />
@@ -33,11 +34,12 @@ export default function ProductiveHero({}: Props) {
         >
           See how Fylo works
           <img
+            alt="arrow"
             src="/assets/images/icon-arrow.svg"
             className="h-4 my-auto pl-2"
           ></img>
         </a>
       </div>
-    </div>
+    </section>
   );
 }
